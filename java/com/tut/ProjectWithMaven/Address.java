@@ -7,6 +7,8 @@ package com.tut.ProjectWithMaven;
 
 import java.util.Date;
 
+
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -26,20 +28,19 @@ public class Address {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="address_id")
 	private int addressId;
-	@Column(length = 50,name = "STREET")
+	@Column(length = 50, name = "STREET")
 	private String street;
 	@Column (length = 100,name="CITY")
 	private String city;
 	@Column (name = "IS_OPEN")
-	private boolean is_open;
+	private boolean is_open; 
 	@Transient
 	private double x;
 	public Date getAddedDate() {
 		return addedDate;
 	}
 
-
-
+	
 	public void setAddedDate(Date addedDate) {
 		this.addedDate = addedDate;
 	}

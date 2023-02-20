@@ -12,11 +12,10 @@
 		<property name="connection.username">root</property>
 		<property name="connection.password">Rupsi@08</property>
 		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
-		<property name="hbm2ddl.auto">create</property>
+		<property name="hbm2ddl.auto"> update  </property>
 		<property name="show_sql">true</property>
-		<mapping class="com.tut.ProjectWithMaven.Student" />
-		<mapping class="com.tut.ProjectWithMaven.Address" />
-
+        <mapping class="onetomany.Question_1" />
+		<mapping class="onetomany.Answer_1" />
 
 	</session-factory>
 </hibernate-configuration> 

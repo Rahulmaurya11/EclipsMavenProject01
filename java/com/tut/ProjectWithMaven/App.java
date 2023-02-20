@@ -16,6 +16,7 @@ import org.hibernate.cfg.Configuration;
 /**
  * Hello world!
  *
+ *
  */
 public class App 
 {
@@ -29,9 +30,9 @@ public class App
        //creating student object. 
        
 Student st= new Student();  
-st.setId(109);
-st.setName("RAHUL");
-st.setCity("thane");
+st.setId(108);
+st.setName("saroj ");
+st.setCity("prayagraj");
 System.out.println(st);
 
 // creating  object of address class; 
@@ -59,6 +60,7 @@ ad.setImage(data);
    
      tx.commit();
     session.close();
+    fis.close();
     System.out.println("DONE");
     
      
