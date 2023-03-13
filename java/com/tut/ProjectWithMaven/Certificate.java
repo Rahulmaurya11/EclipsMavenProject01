@@ -8,8 +8,7 @@ public class Certificate {
 	private String course;
 	private String duration;
 	
-	
-	
+		
 	public Certificate() {
 		super();
 		// TODO Auto-generated constructor stub

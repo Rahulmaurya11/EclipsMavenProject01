@@ -64,7 +64,5 @@ public class Student {
 	public void setCerti(Certificate certi) {
 		this.certi = certi;
 	}
-	
-	
-	
+
 }

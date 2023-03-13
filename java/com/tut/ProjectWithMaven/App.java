@@ -31,7 +31,7 @@ public class App
        
 Student st= new Student();  
 st.setId(108);
-st.setName("saroj ");
+st.setName("Rohit");
 st.setCity("prayagraj");
 System.out.println(st);
 
